@@ -7,15 +7,15 @@
 
 
 Console.WriteLine("Введите первое число");
-int a =Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
-int b =Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-if (a<b)
+if (a < b)
 {
-   Console.WriteLine($"{b} - наибольшее число"); 
+    Console.WriteLine($"{b} - наибольшее число");
 }
-else 
+else
 {
-  Console.WriteLine($"{a} - наибольшее число");    
+    Console.WriteLine($"{a} - наибольшее число");
 }
